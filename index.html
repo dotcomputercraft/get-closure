@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="closures">
+    <meta name="description" content="CLOSURERAMA">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>JS Closures</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="closure-box">
+            <h1 class="headline centered">This is a closure</h1>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="button-box">
+                  <button type="button" class="btn btn-primary center-button first-closure">Show</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="closure">
+                </div>
+              </div>
+            </div>
+
+          </div><!-- closure box -->
+        </div><!-- column -->
+
+        <div class="col-md-6">
+          <div class="closure-box">
+            <h1 class="headline centered">This is another closure</h1>
+
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <form role="form" id="turtleForm">
+                  <div class="radio">
+                      <input type="radio" id="turtleLove" name="turtles">I Like Turtles</input>
+                  </div>
+                  <div class="radio">
+                    <input type="radio" id="noTurtleLove" name="turtles">I Don't Like Turtles</input>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="button-box">
+                   <button type="button" class="btn btn-primary center-button second-closure">Show</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="closure-two">
+                </div>
+              </div>
+            </div>
+
+          </div><!-- closure box -->
+        </div><!-- column -->
+
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/closure.js" type="text/javascript"></script>
+  </body>
+</html>
